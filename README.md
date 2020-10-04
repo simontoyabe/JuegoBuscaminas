@@ -2,12 +2,19 @@
 Clásico juego buscaminas en C
 
 
-El presente documento explica los archivos que conforman el Juego Buscaminas desarrollado en Lenguaje C:
+El presente documento explica los archivos que conforman el Juego Buscaminas desarrollado en Lenguaje C. Este juego cuenta con 5 niveles y debe ser corrido en terminal.
 
 
 ## Funciones del juego
 
-mainmod.c : 
+**mainmod.c** : Función principal que se encarga de darle la estructura al juego y llamar las funciones.
+**modular.h** : Archivo de cabecera en el cual se definen constantes, y se declaran las funciones.
+**tablero.c** : Función que dibuja el tablero del juego buscaminas.
+**colocarbombas.c** : Función que se encarga de colocar las bombas de acuerdo al nivel que el usuario quiera jugar.
+**frasesconsuelo.c** : Función que imprime algunas frases aleatorias en caso de que el usuario pierda.
+**frasesbuenas.c** : Función que imprime algunas frases aleatorias en caso de que el usuario gane.
+**makefile** : Archivo make para realizar más rápido el proceso de compilación.
 
-HTML significa HyperText Markup Language - en español, Lenguaje de Marcas de HyperTexto. **HyperText** -hipertexto en español- significa que es un tipo de texto que soporta hipervínculos entre páginas. **Markup** significa que hemos tomado un documento y lo hemos marcado con código para decirle a algo (en este caso, un navegador) cómo interpretar la página. El código HTML está construido con **etiquetas**, cada una comenzando con `<` y terminando con `>`. Estas etiquetas representan **elementos** de marcado.
-
+## Desarrollado por:
+Simón Montoya Bedoya
+Juan Manuel Gómez Vásquez
