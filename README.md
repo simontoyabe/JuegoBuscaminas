@@ -1,4 +1,4 @@
-# JuegoBuscaminas
+# Hace rato no jugaba el juego buscaminas
 Clásico juego buscaminas en C
 
 
